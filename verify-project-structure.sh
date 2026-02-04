@@ -1,0 +1,1 @@
+find . -type f -name "*.md" -o -name "*.json" -o -name "*.js" -o -name "*.yml" -o -name "Dockerfile" -o -name "*.sh" | grep -v node_modules | sort
