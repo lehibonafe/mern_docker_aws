@@ -23,8 +23,8 @@ if ! command -v aws &> /dev/null; then
 fi
 
 # Get AWS Region
-read -p "Enter AWS Region (default: us-east-1): " AWS_REGION
-AWS_REGION=${AWS_REGION:-us-east-1}
+read -p "Enter AWS Region (default: ap-southeast-1): " AWS_REGION
+AWS_REGION=${AWS_REGION:-ap-southeast-1}
 
 echo -e "\n${YELLOW}Step 1: Creating ECR Repositories${NC}"
 echo "-----------------------------------"
