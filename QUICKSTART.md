@@ -12,7 +12,7 @@ Get the MERN application running locally in 5 minutes!
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/lehibonafe/mern_docker_aws.git
 cd mern-app
 ```
 
